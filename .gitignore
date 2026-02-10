@@ -1,0 +1,59 @@
+# --- KiCad common ignores ---
+
+# Autosave / backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*-bak
+*_autosave-*
+
+# Lock files
+*.lck
+
+# Temporary / cache
+*.tmp
+*.temp
+*.cache
+*.log
+
+# KiCad 6+ local settings
+*.kicad_prl
+*.kicad_pro.user
+*.kicad_prj-bak
+
+# KiCad legacy local settings
+*.pro.user
+*.kicad_wks.autosave
+
+# 3D viewer cache
+*.3dshapes/cache/
+
+# Plot / fabrication outputs (optional — ignore if generated)
+*.gbr
+*.gbrjob
+*.drl
+*.rpt
+*.pos
+*.csv
+*.d356
+*.svg
+*.pdf
+*.step
+*.stp
+
+# Netlists / intermediate exports
+*.net
+*.xml
+
+# ERC/DRC reports
+erc.txt
+drc.txt
+
+# Python compiled files (if using plugins/scripts)
+__pycache__/
+*.pyc
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
