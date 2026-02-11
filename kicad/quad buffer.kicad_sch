@@ -1041,74 +1041,74 @@
 		)
 	)
 	(junction
-		(at 100.33 63.5)
+		(at 163.83 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f2c3040-f902-4579-b1df-e94fac8dcbec")
 	)
 	(junction
-		(at 124.46 66.04)
+		(at 187.96 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28fd8875-0ddd-4212-a43e-19a367626136")
 	)
 	(junction
-		(at 40.64 49.53)
+		(at 104.14 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46c577a8-a3d8-4aa2-b03e-d23eb7741160")
 	)
 	(junction
-		(at 124.46 86.36)
+		(at 187.96 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52c12fd1-cd83-4543-9ae8-fd8982423363")
 	)
 	(junction
-		(at 124.46 48.26)
+		(at 187.96 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56c8d9ea-1adc-4f2b-9388-b8306e3447a0")
 	)
 	(junction
-		(at 50.8 58.42)
+		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c573ef05-e65d-49f0-9386-c57edbb18ad5")
 	)
 	(junction
-		(at 86.36 45.72)
+		(at 149.86 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5749652-fb5a-4856-b0b3-a2f0c0099471")
 	)
 	(junction
-		(at 100.33 45.72)
+		(at 163.83 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5907253-8746-41f4-a477-9d88be7a9d4e")
 	)
 	(junction
-		(at 124.46 104.14)
+		(at 187.96 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecbbab55-d7c2-4989-a4d5-78eb65d48715")
 	)
 	(junction
-		(at 100.33 83.82)
+		(at 163.83 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f713e35d-54b7-4054-b00f-9e4db50a9e73")
 	)
 	(junction
-		(at 50.8 40.64)
+		(at 114.3 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc62482d-3aa6-499a-9387-853312c64bd4")
 	)
 	(wire
 		(pts
-			(xy 124.46 113.03) (xy 124.46 104.14)
+			(xy 187.96 130.81) (xy 187.96 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 100.33 101.6)
+			(xy 163.83 101.6) (xy 163.83 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 124.46 48.26)
+			(xy 187.96 73.66) (xy 187.96 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 40.64) (xy 50.8 40.64)
+			(xy 104.14 58.42) (xy 114.3 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 101.6) (xy 109.22 101.6)
+			(xy 163.83 119.38) (xy 172.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 100.33 83.82)
+			(xy 163.83 81.28) (xy 163.83 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 124.46 55.88)
+			(xy 172.72 73.66) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1178,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 109.22 68.58)
+			(xy 172.72 92.71) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 139.7 104.14)
+			(xy 199.39 121.92) (xy 203.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 113.03) (xy 124.46 113.03)
+			(xy 172.72 130.81) (xy 187.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 139.7 86.36)
+			(xy 199.39 104.14) (xy 203.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 128.27 86.36)
+			(xy 187.96 104.14) (xy 191.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 50.8 57.15)
+			(xy 114.3 76.2) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 40.64 49.53)
+			(xy 104.14 66.04) (xy 104.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 109.22 63.5)
+			(xy 163.83 81.28) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 66.04) (xy 128.27 66.04)
+			(xy 187.96 83.82) (xy 191.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 49.53) (xy 40.64 50.8)
+			(xy 104.14 67.31) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 48.26) (xy 139.7 48.26)
+			(xy 199.39 66.04) (xy 203.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 139.7 66.04)
+			(xy 199.39 83.82) (xy 203.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 109.22 83.82)
+			(xy 163.83 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 86.36 45.72)
+			(xy 140.97 63.5) (xy 149.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 100.33 63.5)
+			(xy 163.83 63.5) (xy 163.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 66.04) (xy 124.46 74.93)
+			(xy 187.96 83.82) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 40.64 49.53)
+			(xy 97.79 67.31) (xy 104.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 113.03) (xy 109.22 106.68)
+			(xy 172.72 130.81) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 109.22 45.72)
+			(xy 163.83 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 128.27 48.26)
+			(xy 187.96 66.04) (xy 191.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 95.25) (xy 124.46 95.25)
+			(xy 172.72 113.03) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 58.42) (xy 50.8 58.42)
+			(xy 104.14 76.2) (xy 114.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 124.46 74.93)
+			(xy 172.72 92.71) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 109.22 50.8)
+			(xy 172.72 73.66) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 124.46 86.36)
+			(xy 187.96 113.03) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 50.8 41.91)
+			(xy 114.3 58.42) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 128.27 104.14)
+			(xy 187.96 121.92) (xy 191.77 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 100.33 45.72)
+			(xy 149.86 63.5) (xy 163.83 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 95.25) (xy 109.22 88.9)
+			(xy 172.72 113.03) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1468,7 @@
 	)
 	(hierarchical_label "OutB"
 		(shape output)
-		(at 139.7 66.04 0)
+		(at 203.2 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1479,7 +1479,7 @@
 	)
 	(hierarchical_label "OutD"
 		(shape output)
-		(at 139.7 104.14 0)
+		(at 203.2 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 	)
 	(hierarchical_label "OutA"
 		(shape output)
-		(at 139.7 48.26 0)
+		(at 203.2 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 	)
 	(hierarchical_label "Input"
 		(shape input)
-		(at 77.47 45.72 180)
+		(at 140.97 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1512,7 +1512,7 @@
 	)
 	(hierarchical_label "OutC"
 		(shape output)
-		(at 139.7 86.36 0)
+		(at 203.2 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1523,7 +1523,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 132.08 48.26 90)
+		(at 195.58 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1532,7 +1532,7 @@
 		(fields_autoplaced yes)
 		(uuid "00539e2a-1ccc-4af7-b301-8360b6698d5f")
 		(property "Reference" "R2"
-			(at 132.08 41.91 90)
+			(at 195.58 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1540,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 132.08 44.45 90)
+			(at 195.58 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.334 47.244 90)
+			(at 195.834 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,8 +1556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 48.26 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/SMD.pdf"
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1566,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 132.08 48.26 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 132.08 104.14 270)
+		(at 195.58 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1604,7 +1604,7 @@
 		(fields_autoplaced yes)
 		(uuid "185237ad-7e2d-48a0-9323-700b0991166d")
 		(property "Reference" "R5"
-			(at 132.08 97.79 90)
+			(at 195.58 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 			)
 		)
 		(property "Value" "300R"
-			(at 132.08 100.33 90)
+			(at 195.58 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 131.826 105.156 90)
+			(at 195.326 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,8 +1628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 104.14 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/SMD.pdf"
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 132.08 104.14 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1667,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 54.61 0)
+		(at 104.14 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1675,7 +1675,7 @@
 		(dnp no)
 		(uuid "3d1a2008-2ae4-4f2a-a32c-5c8714291e3a")
 		(property "Reference" "C6"
-			(at 34.544 58.674 0)
+			(at 98.044 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 34.544 56.896 0)
+			(at 98.044 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 41.6052 58.42 0)
+			(at 105.1052 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,8 +1701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 40.64 54.61 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1711,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 54.61 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1740,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 49.53 0)
+		(at 97.79 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1748,7 +1748,7 @@
 		(dnp no)
 		(uuid "3e413475-b37d-4875-9261-3c2630369955")
 		(property "Reference" "#PWR015"
-			(at 34.29 55.88 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 53.848 0)
+			(at 97.79 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 49.53 0)
+			(at 97.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 49.53 0)
+			(at 97.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 49.53 0)
+			(at 97.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1809,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 116.84 86.36 0)
+		(at 180.34 104.14 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1817,7 +1817,7 @@
 		(dnp no)
 		(uuid "3e77ad60-6d43-4ff6-941d-10323ddfbe62")
 		(property "Reference" "U1"
-			(at 115.57 87.884 0)
+			(at 179.07 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1825,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 115.57 85.598 0)
+			(at 179.07 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1833,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 115.57 83.82 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,8 +1841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 118.11 81.28 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-1137.PDF"
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1851,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 116.84 86.36 0)
+			(at 180.34 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1916,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 44.45 0)
+		(at 104.14 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1924,7 +1924,7 @@
 		(dnp no)
 		(uuid "42ba1b05-182e-4ec8-baa9-bade7822f2a9")
 		(property "Reference" "C5"
-			(at 34.036 43.942 0)
+			(at 97.536 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 34.036 42.164 0)
+			(at 97.536 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 41.6052 48.26 0)
+			(at 105.1052 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,8 +1950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 40.64 44.45 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 44.45 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 132.08 86.36 90)
+		(at 195.58 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1998,7 +1998,7 @@
 		(fields_autoplaced yes)
 		(uuid "44698f41-7c9e-4979-a897-02a16a963f6e")
 		(property "Reference" "R4"
-			(at 132.08 80.01 90)
+			(at 195.58 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +2006,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 132.08 82.55 90)
+			(at 195.58 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2014,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.334 85.344 90)
+			(at 195.834 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,8 +2022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 86.36 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/SMD.pdf"
+			(at 195.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2032,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 132.08 86.36 0)
+			(at 195.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2061,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 50.8 40.64 0)
+		(at 114.3 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2070,7 +2070,7 @@
 		(fields_autoplaced yes)
 		(uuid "53e341a2-b9b3-4e2e-9e8d-3cabb0f4c322")
 		(property "Reference" "#PWR016"
-			(at 50.8 44.45 0)
+			(at 114.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 50.8 35.56 0)
+			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 40.64 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 40.64 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 50.8 40.64 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 53.34 0)
+		(at 149.86 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2139,7 +2139,7 @@
 		(dnp no)
 		(uuid "56901d01-508b-416c-8417-af1fba82b6c0")
 		(property "Reference" "#PWR018"
-			(at 86.36 59.69 0)
+			(at 149.86 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 57.658 0)
+			(at 149.86 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 53.34 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 53.34 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 53.34 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 132.08 66.04 90)
+		(at 195.58 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2209,7 @@
 		(fields_autoplaced yes)
 		(uuid "66a631a3-e457-4ff4-ba23-b7354b2bcddc")
 		(property "Reference" "R3"
-			(at 132.08 59.69 90)
+			(at 195.58 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 132.08 62.23 90)
+			(at 195.58 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.334 65.024 90)
+			(at 195.834 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,8 +2233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 66.04 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/SMD.pdf"
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2243,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 132.08 66.04 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 116.84 66.04 0)
+		(at 180.34 83.82 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2280,7 +2280,7 @@
 		(dnp no)
 		(uuid "727d5f64-0a16-4fed-945b-9d103aba55d8")
 		(property "Reference" "U1"
-			(at 115.57 67.564 0)
+			(at 179.07 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2288,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 115.57 65.786 0)
+			(at 179.07 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2296,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 115.57 63.5 0)
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,8 +2304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 118.11 60.96 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-1137.PDF"
+			(at 181.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 116.84 66.04 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2379,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 116.84 104.14 0)
+		(at 180.34 121.92 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,7 +2387,7 @@
 		(dnp no)
 		(uuid "7af87d66-ec4f-4ee0-8354-b0f20b8f434a")
 		(property "Reference" "U1"
-			(at 115.57 105.41 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2395,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 115.824 103.124 0)
+			(at 179.324 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2403,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 115.57 101.6 0)
+			(at 179.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,8 +2411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 118.11 99.06 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-1137.PDF"
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 116.84 104.14 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2486,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 50.8 58.42 0)
+		(at 114.3 76.2 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2496,7 +2496,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b6b5688-6db5-4f4d-9e16-d42563a0815a")
 		(property "Reference" "#PWR017"
-			(at 50.8 54.61 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 50.8 63.5 0)
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 58.42 0)
+			(at 114.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 58.42 0)
+			(at 114.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 50.8 58.42 0)
+			(at 114.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2557,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 53.34 49.53 0)
+		(at 116.84 67.31 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2566,7 +2566,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddf1968c-8e46-4455-8661-cb8629e8e2ae")
 		(property "Reference" "U1"
-			(at 52.07 48.2599 0)
+			(at 115.57 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 52.07 50.7999 0)
+			(at 115.57 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 52.07 46.99 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,8 +2592,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 54.61 44.45 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-1137.PDF"
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2602,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 53.34 49.53 0)
+			(at 116.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2667,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 116.84 48.26 0)
+		(at 180.34 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2675,7 +2675,7 @@
 		(dnp no)
 		(uuid "e90c5da5-921e-4780-afba-1ebfe93af6bd")
 		(property "Reference" "U1"
-			(at 115.316 49.53 0)
+			(at 178.816 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2683,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 115.57 47.498 0)
+			(at 179.07 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2691,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 115.57 45.72 0)
+			(at 179.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,8 +2699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 118.11 43.18 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-1137.PDF"
+			(at 181.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2709,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 116.84 48.26 0)
+			(at 180.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2774,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 86.36 49.53 180)
+		(at 149.86 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2783,7 +2783,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9a6188a-b293-4311-97e3-11f3e8d4643b")
 		(property "Reference" "R1"
-			(at 88.9 48.2599 0)
+			(at 152.4 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2792,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 88.9 50.7999 0)
+			(at 152.4 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2801,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 85.344 49.276 90)
+			(at 148.844 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,8 +2809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 49.53 0)
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/SMD.pdf"
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2819,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 86.36 49.53 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

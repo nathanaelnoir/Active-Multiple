@@ -69,6 +69,30 @@ This repository holds the KiCad 9 project for an active multiple (buffered split
 
 For a detailed BOM, use KiCad's BOM export or ask me to generate a CSV from the project files.
 
+### Bill of Materials (detailed)
+
+| Designator(s) | Qty | Value / Part | Footprint | Datasheet |
+|---|---:|---|---|---|
+| C1, C2 | 2 | 10 µF | Capacitor_SMD:CP_Elec_5x5.4 | [datasheet](https://www.taydaelectronics.com/datasheets/files/a-1677.pdf) |
+| C3–C8 | 6 | 100 nF | Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | [datasheet](https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html) |
+| D1 | 1 | LED_Dual_A (bi-color) | LED_THT:LED_D3.0mm | [product](https://www.taydaelectronics.com/bi-color-led-3mm-red-green.html) |
+| D2 | 1 | LED_Dual_B (bi-color) | LED_THT:LED_D3.0mm | [product](https://www.taydaelectronics.com/bi-color-led-3mm-red-green.html) |
+| FB1, FB2 | 2 | Ferrite bead (small) | Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder | [datasheet](https://www.taydaelectronics.com/datasheets/files/A-3191.PDF) |
+| J1 | 1 | Jack_InA (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J2 | 1 | Jack_InB (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J3 | 1 | Jack_OutA-1 (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J4 | 1 | Jack_OutA-2 (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J5 | 1 | Jack_OutA-3 (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J6 | 1 | Jack_OutB-1 (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J7 | 1 | Jack_OutB-2 (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J8 | 1 | Jack_OutB-3 (3.5 mm TS) | AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/w-qp-518ma_drawings.pdf) |
+| J9 | 1 | Conn_02x05_Odd_Even (Eurorack power header) | Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical | [datasheet](https://www.taydaelectronics.com/datasheets/files/A-2939.pdf) |
+| R1, R6 | 2 | 1 MΩ | Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder | [SMD info](https://www.taydaelectronics.com/datasheets/files/SMD.pdf) |
+| R2–R4, R7–R9 | 6 | 1 kΩ | Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder | [SMD info](https://www.taydaelectronics.com/datasheets/files/SMD.pdf) |
+| R5, R10 | 2 | 300 Ω | Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder | [SMD info](https://www.taydaelectronics.com/datasheets/files/SMD.pdf) |
+| TP1–TP3 | 3 | TestPoint | TestPoint:TestPoint_Pad_D1.5mm | ~ |
+| U1, U2 | 2 | TL074 (quad op-amp) | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | [datasheet](https://www.taydaelectronics.com/datasheets/files/A-1137.PDF) |
+
 ## License & contributing
 
 This repository is released under the MIT license. See `LICENSE` for full text.

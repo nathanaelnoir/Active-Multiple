@@ -2021,7 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
 			(at 107.95 96.52 0)
 			(effects
 				(font
@@ -2088,7 +2088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-3191.PDF"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -2356,7 +2356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/a-1677.pdf"
 			(at 96.52 106.68 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-3191.PDF"
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
 			(at 107.95 106.68 0)
 			(effects
 				(font
@@ -2827,7 +2827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-2939.pdf"
 			(at 181.61 101.6 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/a-1677.pdf"
 			(at 96.52 96.52 0)
 			(effects
 				(font
