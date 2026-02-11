@@ -1,15 +1,10 @@
-![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
-![Version v1.1](https://img.shields.io/badge/version-v1.1-brightgreen)
-![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-[![Instagram](https://img.shields.io/badge/Instagram-@moonsofmercury-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/moonsofmercury/)
-
 # Active Multiple
 
 ![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
 ![Version v1.1](https://img.shields.io/badge/version-v1.1-brightgreen)
 ![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+[![Instagram](https://img.shields.io/badge/Instagram-@moonsofmercury-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/moonsofmercury/)
 
 Active Multiple — a compact active buffered multiple for Eurorack modular synths.
 
