@@ -1,59 +1,31 @@
-# --- KiCad common ignores ---
-
-# Autosave / backup files
-*.bak
-*.bck
+# KiCad backups / autosaves
+*-backups/
+_autosave-*
+*.kicad_sch-bak
 *.kicad_pcb-bak
-*.sch-bak
-*-bak
-*_autosave-*
+*.bak
 
-# Lock files
-*.lck
-
-# Temporary / cache
-*.tmp
-*.temp
+# KiCad caches and local state
+fp-info-cache
 *.cache
-*.log
+*.tmp
+*.dcm
+*.bck
 
-# KiCad 6+ local settings
-*.kicad_prl
-*.kicad_pro.user
-*.kicad_prj-bak
-
-# KiCad legacy local settings
-*.pro.user
-*.kicad_wks.autosave
-
-# 3D viewer cache
-*.3dshapes/cache/
-
-# Plot / fabrication outputs (optional — ignore if generated)
+# Plot/gerber/drill/export outputs (regenerate)
 *.gbr
-*.gbrjob
 *.drl
-*.rpt
 *.pos
+*.rpt
 *.csv
-*.d356
-*.svg
-*.pdf
-*.step
-*.stp
-
-# Netlists / intermediate exports
 *.net
 *.xml
+*.step
+*.stp
+*.wrl
+*.svg
+*.pdf
 
-# ERC/DRC reports
-erc.txt
-drc.txt
-
-# Python compiled files (if using plugins/scripts)
-__pycache__/
-*.pyc
-
-# OS-specific junk
-.DS_Store
-Thumbs.db
+# If your bom/ folder is generated output:
+bom/
+# (If you want to keep some BOMs, remove the line above and ignore only generated patterns)
