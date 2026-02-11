@@ -1,7 +1,15 @@
+![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
+![Version v1.1](https://img.shields.io/badge/version-v1.1-brightgreen)
+![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+[![Instagram](https://img.shields.io/badge/Instagram-@moonsofmercury-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/moonsofmercury/)
+
+**Note about follower-count badge**: Instagram does not provide an unauthenticated public API for live follower counts and blocks automated scraping. The first badge above links to the profile; the follower-count badge is a static placeholder. If you want a live follower-count badge I can either (a) add a static badge with the current follower number if you provide it, or (b) show you how to host a small service with authenticated access to Instagram's API (requires credentials). Which do you prefer?
 
 # Active Multiple
 
 ![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
+![Version v1.1](https://img.shields.io/badge/version-v1.1-brightgreen)
 ![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -28,7 +36,7 @@ This repository holds the KiCad 9 project for an active multiple (buffered split
 - Per-channel quad buffering using TL074 op-amps (low-noise JFET-input quads).
 - 3.5 mm TS jacks (QingPu / Thonkiconn footprint).
 - Standard Eurorack power: +12 V / -12 V / GND via a 2x5 (10-pin) header.
-- Simple THT-friendly layout for easy DIY assembly.
+- Mostly SMD (surface-mount) components; through-hole only for audio jacks and the Eurorack power header. Assembly is a mixed SMD + THT workflow.
 
 ## Quick start
 
