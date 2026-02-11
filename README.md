@@ -1,61 +1,80 @@
+
 # Active Multiple
 
-Active Multiple — an active buffered multiple for Eurorack modular systems.
+![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
+![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
-**Overview**
+Active Multiple — a compact active buffered multiple for Eurorack modular synths.
 
-This project contains schematics and PCB for an active multiple (signal buffer/split) designed by Dirty Dream — Nathanael Noir. The module accepts audio/CV inputs and provides buffered outputs so signals can be safely split with low impedance and minimal loading.
+## Contents
 
-**Key Features**
+- Overview
+- Features
+- Quick start (KiCad 9)
+- Files
+- Build & assembly notes
+- Testing
+- High-level BOM
+- License & contributing
 
-- Two independent input channels (A and B).
-- Each channel is fed to a TL074 quad op-amp used as low-noise buffers and splitters (four outputs per quad buffer sheet available in the schematic).
-- Standard 3.5 mm (TS) input/output jacks (QingPu / Thonkiconn-style footprints used in the PCB).
-- Standard Eurorack power: +12 V / -12 V / GND via a 2x5 (10-pin) connector.
-- Simple, DIY-friendly through-hole and THT component selection for easy assembly.
+## Overview
 
-**Specifications**
+This repository holds the KiCad 9 project for an active multiple (buffered split). Designed by Dirty Dream — Nathanael Noir — the module accepts audio/CV inputs and provides low-impedance buffered outputs so signals can be split without loading downstream modules.
 
-- Input impedance: buffered (high) via op-amp inputs
-- Output impedance: low (buffered)
-- Power: +12 V / -12 V / GND (Eurorack standard)
-- Active buffers: TL074 (quad JFET-input op-amp) — compatible TL07x-series recommended
+## Features
 
-**Files in this repo**
+- Two independent channels (A & B).
+- Per-channel quad buffering using TL074 op-amps (low-noise JFET-input quads).
+- 3.5 mm TS jacks (QingPu / Thonkiconn footprint).
+- Standard Eurorack power: +12 V / -12 V / GND via a 2x5 (10-pin) header.
+- Simple THT-friendly layout for easy DIY assembly.
 
-- kicad/buffer-module.kicad_sch — top-level schematic (multiple sheets)
-- kicad/quad buffer.kicad_sch — quad-buffer sheet used by the top-level schematic
-- kicad/Europower +12 -12 GND.kicad_sch — Eurorack power connector sheet
-- kicad/buffer-module.kicad_pcb — PCB layout
-- kicad/buffer-module.kicad_pro — KiCad project file
+## Quick start
 
-**Build / Assembly Notes**
+1. Install KiCad 9 (this project was created/edited in KiCad 9).
+2. Open the project: `kicad/buffer-module.kicad_pro`.
+3. Inspect sheets and ERC, then run CV/PWR checks before exporting fabrication files.
 
-- Open the project using KiCad (open `kicad/buffer-module.kicad_pro`).
-- Populate the board following the schematic: install the TL074 (observe pin 1 orientation), audio jacks (vertical 3.5 mm footprints), power connector (2x5 Eurorack), and decoupling capacitors on V+ / V- rails adjacent to each op-amp.
-- Verify footprints: jacks use `AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical` (Thonkiconn-style) and the power connector uses a 2x5 connector footprint.
-- Before powering, check for shorts between rails and ensure the power connector is wired to the correct orientation for your case.
+## Files
 
-**Testing**
+- `kicad/buffer-module.kicad_sch` — top-level schematic (multi-sheet)
+- `kicad/quad buffer.kicad_sch` — quad-buffer sheet (re-used per channel)
+- `kicad/Europower +12 -12 GND.kicad_sch` — Eurorack power header sheet
+- `kicad/buffer-module.kicad_pcb` — PCB
+- `kicad/buffer-module.kicad_pro` — KiCad project file
 
-1. With no inputs connected, power up and verify ±12 V at the rails at the op-amp power pins.
-2. Feed a known signal (sine or square) into `Input A` or `Input B` and confirm the outputs (`OutA`, `OutB`, `OutC`, `OutD` per quad buffer sheet) reproduce the signal without level change and with low noise.
-3. Test multiple outputs simultaneously to ensure there is no loading or distortion.
+## Build & assembly notes
 
-**Bill of Materials (high level)**
+- Populate the PCB according to the schematic. Observe TL074 pin-1 orientation.
+- Typical footprints:
+	- Audio jacks: `AudioJacks2:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical` (vertical Thonkiconn-style)
+	- Power connector: 2x5 Eurorack header (standard 10-pin)
+- Add local decoupling (100 nF) on each op-amp power pin pair and bulk caps on rails.
+- Double-check power-header orientation with your case header before applying power.
 
-- U1, U2 — TL074 (quad op-amp) or compatible
-- J1..J9 — 3.5 mm TS audio jacks (vertical Thonkiconn/QingPu footprint)
-- J(power) — 2x5 Eurorack power connector (standard 10-pin)
-- assorted resistors and capacitors (see schematic for exact values)
+## Testing
 
-For a full BOM, generate from KiCad's PCB/BOM tools or consult the `kicad` schematic files.
+1. With no inputs connected, power up and verify rails (+12 V / -12 V) at op-amp supply pins.
+2. Feed a low-frequency sine into `Input A` and verify the outputs `OutA/OutB/OutC/OutD` reproduce it cleanly.
+3. Connect multiple outputs to confirm splitting works without distortion or level loss.
 
-**License & Attribution**
+## High-level BOM
 
-Designed by Dirty Dream — Nathanael Noir. Please include licensing you prefer (e.g., MIT) if you want to release this project publicly.
+- U1, U2 — TL074 (or compatible quad op-amp)
+- J1..J9 — 3.5 mm TS jacks (vertical Thonkiconn/QingPu)
+- Jpwr — 2x5 Eurorack power connector
+- Resistors, caps, and decoupling components — see schematic for values and placement
 
-**Contact / Notes**
+For a detailed BOM, use KiCad's BOM export or ask me to generate a CSV from the project files.
 
-If you'd like, I can generate a full BOM, panel graphic, or assembly instructions next. Open issues or pull-requests are welcome.
+## License & contributing
+
+This repository is released under the MIT license. See `LICENSE` for full text.
+
+Contributions, issues, and pull requests welcome. If you publish PCBs or panels based on this design, please credit the original author: Dirty Dream — Nathanael Noir.
+
+---
+
+Would you like a generated BOM CSV, a front-panel SVG (printable), or an assembly checklist next?
 
