@@ -4,8 +4,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 [![Instagram](https://img.shields.io/badge/Instagram-@moonsofmercury-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/moonsofmercury/)
 
-**Note about follower-count badge**: Instagram does not provide an unauthenticated public API for live follower counts and blocks automated scraping. The first badge above links to the profile; the follower-count badge is a static placeholder. If you want a live follower-count badge I can either (a) add a static badge with the current follower number if you provide it, or (b) show you how to host a small service with authenticated access to Instagram's API (requires credentials). Which do you prefer?
-
 # Active Multiple
 
 ![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
@@ -83,6 +81,3 @@ This repository is released under the MIT license. See `LICENSE` for full text.
 Contributions, issues, and pull requests welcome. If you publish PCBs or panels based on this design, please credit the original author: Dirty Dream — Nathanael Noir.
 
 ---
-
-Would you like a generated BOM CSV, a front-panel SVG (printable), or an assembly checklist next?
-
