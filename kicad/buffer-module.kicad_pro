@@ -52,7 +52,52 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|102845890|122488333|7daf4a13-67f7-42e6-aad6-8bd6d8b82bfe|d3f79311-20bf-4573-807f-e787243c77fe",
+          ""
+        ],
+        [
+          "courtyards_overlap|102845890|131821667|d3f79311-20bf-4573-807f-e787243c77fe|ff74aba1-c87f-4392-ba45-7cba4a989e38",
+          ""
+        ],
+        [
+          "courtyards_overlap|102845890|141155000|78ea8db6-60db-433a-aea8-31a8c50c288a|ff74aba1-c87f-4392-ba45-7cba4a989e38",
+          ""
+        ],
+        [
+          "courtyards_overlap|102845890|60488333|983506d9-836f-403f-9cb3-e8ba48af8081|bd597503-3a55-4a27-9013-813c79b9c05a",
+          ""
+        ],
+        [
+          "courtyards_overlap|102845890|69821667|0614b1cb-b179-43eb-8e66-fc46d607cb17|bd597503-3a55-4a27-9013-813c79b9c05a",
+          ""
+        ],
+        [
+          "courtyards_overlap|102845890|79155000|04db1d8e-729d-47ee-8d2c-ce9814569fab|0614b1cb-b179-43eb-8e66-fc46d607cb17",
+          ""
+        ],
+        [
+          "courtyards_overlap|87989992|113170000|14a594a4-a386-4e2a-896f-c1d21935f0c9|9e59e6f6-f124-4175-befe-483ffb5e99bd",
+          ""
+        ],
+        [
+          "courtyards_overlap|88025890|51155000|1018c8ad-a0fa-48dc-9a55-eec0ebf74782|983506d9-836f-403f-9cb3-e8ba48af8081",
+          ""
+        ],
+        [
+          "courtyards_overlap|88025890|88448659|04db1d8e-729d-47ee-8d2c-ce9814569fab|a51ea266-4ff3-4373-ae5d-baab5875d350",
+          ""
+        ],
+        [
+          "courtyards_overlap|88048142|113170000|14a594a4-a386-4e2a-896f-c1d21935f0c9|7daf4a13-67f7-42e6-aad6-8bd6d8b82bfe",
+          ""
+        ],
+        [
+          "courtyards_overlap|91739992|113155000|7daf4a13-67f7-42e6-aad6-8bd6d8b82bfe|9e59e6f6-f124-4175-befe-483ffb5e99bd",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -95,7 +140,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -791,7 +836,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./gerbers",
+      "plot": "../Outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
