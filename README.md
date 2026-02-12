@@ -1,7 +1,9 @@
-![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)
-![Version v1.1](https://img.shields.io/badge/version-v1.1-brightgreen)
-![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+[![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)](https://kicad.org)
+[![Schematic v1.1](https://img.shields.io/badge/Sch-v1.1-blueviolet)](kicad/buffer-module.kicad_sch)
+[![PCB v1.0](https://img.shields.io/badge/PCB-v1.0-blue)](kicad/buffer-module.kicad_pcb)
+[![PCBs: 1](https://img.shields.io/badge/PCBs-1-brightgreen)](kicad/buffer-module.kicad_pcb)
+[![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Instagram](https://img.shields.io/badge/Instagram-@moonsofmercury-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/moonsofmercury/)
 
 # Active Multiple
@@ -44,6 +46,8 @@ This repository holds the KiCad 9 project for an active multiple (buffered split
 - `kicad/Europower +12 -12 GND.kicad_sch` — Eurorack power header sheet
 - `kicad/buffer-module.kicad_pcb` — PCB
 - `kicad/buffer-module.kicad_pro` — KiCad project file
+
+Note: there is a single PCB layout file (`kicad/buffer-module.kicad_pcb`) for this project.
 
 ## Build & assembly notes
 
