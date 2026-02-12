@@ -2450,7 +2450,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 156.21)
+		(at 29.21 167.64)
 		(size 19.05 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2466,7 +2466,7 @@
 		)
 		(uuid "990e0e04-42d3-459f-9a1b-918b3eab57e8")
 		(property "Sheetname" "Europower +12 -12 GND"
-			(at 77.47 155.4984 0)
+			(at 29.21 166.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 			)
 		)
 		(property "Sheetfile" "Europower +12 -12 GND.kicad_sch"
-			(at 77.47 172.0346 0)
+			(at 29.21 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

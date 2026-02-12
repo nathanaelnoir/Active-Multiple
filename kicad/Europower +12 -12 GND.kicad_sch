@@ -1391,12 +1391,6 @@
 		(uuid "0db306fa-713c-49a9-92c7-ca8b8247ef09")
 	)
 	(junction
-		(at 171.45 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "180cadbe-ae2f-4099-a76c-4dc777fc6510")
-	)
-	(junction
 		(at 96.52 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1427,12 +1421,6 @@
 		(uuid "2e893efe-f7d3-449e-9c70-ea04bdf611c5")
 	)
 	(junction
-		(at 170.18 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41f9cce7-1e7d-427e-961e-3b58b12c849f")
-	)
-	(junction
 		(at 176.53 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1445,10 +1433,22 @@
 		(uuid "5e530556-15dd-4c66-b0e0-7bcd34f3d5aa")
 	)
 	(junction
+		(at 165.1 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d92a67b-f192-42d1-914e-46cabb0ae917")
+	)
+	(junction
 		(at 132.08 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee720f2-3e4a-4cdf-966d-297f25d83dab")
+	)
+	(junction
+		(at 165.1 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8722f46b-c46d-471e-8472-d67a4166e73b")
 	)
 	(junction
 		(at 107.95 110.49)
@@ -1457,20 +1457,10 @@
 		(uuid "8cb5ad2e-b70b-4ab3-a6d2-62d9d32bfe3c")
 	)
 	(junction
-		(at 171.45 110.49)
+		(at 165.1 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0de72c1-c005-47b5-94ca-35c3f7e608e8")
-	)
-	(wire
-		(pts
-			(xy 171.45 110.49) (xy 176.53 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "079f8d0b-a99e-4b59-819b-c8350d1038c2")
+		(uuid "a2fb80bd-7c84-4bb0-841e-d2a6803c1986")
 	)
 	(wire
 		(pts
@@ -1494,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 170.18 101.6)
+			(xy 107.95 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1524,13 +1514,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 162.56 110.49)
+			(xy 132.08 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d05041d-de9f-4676-8327-887aafff6b21")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd680d1-d25a-4cf3-8ea8-519ffa8ffb60")
 	)
 	(wire
 		(pts
@@ -1544,7 +1544,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 110.49) (xy 171.45 110.49)
+			(xy 154.94 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1634,6 +1634,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b226b8-aa4e-4e32-aaaa-7a695610a2a3")
+	)
+	(wire
+		(pts
 			(xy 191.77 101.6) (xy 196.85 101.6)
 		)
 		(stroke
@@ -1714,16 +1724,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 173.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a92d6201-096a-4a49-a3e0-fa71629aaed0")
-	)
-	(wire
-		(pts
 			(xy 176.53 92.71) (xy 189.23 92.71)
 		)
 		(stroke
@@ -1754,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 162.56 92.71)
+			(xy 130.81 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 171.45 92.71)
+			(xy 154.94 92.71) (xy 165.1 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1824,6 +1824,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee49a17b-f96a-44e7-804e-ece510845f50")
+	)
+	(wire
+		(pts
 			(xy 107.95 100.33) (xy 107.95 101.6)
 		)
 		(stroke
@@ -1841,16 +1851,6 @@
 			(type default)
 		)
 		(uuid "fdbfb68d-6204-40e6-9e8b-9ffde8259594")
-	)
-	(wire
-		(pts
-			(xy 171.45 92.71) (xy 176.53 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff020bbf-b1c8-4051-8495-9c92738dd1ea")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2056,7 +2056,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 165.1 92.71 90)
+		(at 152.4 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2064,7 +2064,7 @@
 		(dnp no)
 		(uuid "2812b267-04e9-483f-970b-d4c1ab4f74b7")
 		(property "Reference" "FB1"
-			(at 162.052 95.25 90)
+			(at 149.352 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2072,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 160.528 97.282 90)
+			(at 147.828 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 165.1 94.488 90)
+			(at 152.4 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2089,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-3191.PDF"
-			(at 165.1 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 165.1 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 170.18 101.6 0)
+		(at 165.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2263,7 +2263,7 @@
 		(dnp no)
 		(uuid "65d7879a-44e8-4d6d-a8b0-fce3542bc1e8")
 		(property "Reference" "TP3"
-			(at 165.862 102.87 0)
+			(at 160.782 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 163.068 104.394 0)
+			(at 157.988 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 175.26 101.6 0)
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 101.6 0)
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2299,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 170.18 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 171.45 92.71 0)
+		(at 165.1 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2400,7 +2400,7 @@
 		(fields_autoplaced yes)
 		(uuid "87391980-a468-410b-b0aa-bbd8b5d1891a")
 		(property "Reference" "TP1"
-			(at 173.99 88.1379 0)
+			(at 167.64 88.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2409,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 173.99 90.6779 0)
+			(at 167.64 90.6779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2418,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 176.53 92.71 0)
+			(at 170.18 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 92.71 0)
+			(at 170.18 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2436,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 171.45 92.71 0)
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2524,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 165.1 110.49 90)
+		(at 152.4 110.49 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(uuid "bbdc8484-5b73-4f6a-a859-42e1cb3972a3")
 		(property "Reference" "FB2"
-			(at 162.56 112.268 90)
+			(at 149.86 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2541,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 163.322 114.3 90)
+			(at 150.622 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 165.1 108.712 90)
+			(at 152.4 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-3191.PDF"
-			(at 165.1 110.49 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2567,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 165.1 110.49 0)
+			(at 152.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2662,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 171.45 110.49 0)
+		(at 165.1 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2670,7 +2670,7 @@
 		(dnp no)
 		(uuid "e7642121-2b5d-4f60-a5cb-7802944f2c98")
 		(property "Reference" "TP2"
-			(at 172.974 113.03 0)
+			(at 166.624 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.974 114.808 0)
+			(at 166.624 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2688,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 176.53 110.49 0)
+			(at 170.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 110.49 0)
+			(at 170.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2706,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 171.45 110.49 0)
+			(at 165.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
