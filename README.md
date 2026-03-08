@@ -1,6 +1,6 @@
 [![KiCad 9](https://img.shields.io/badge/KiCad-9-blue)](https://kicad.org)
 [![Schematic v1.1](https://img.shields.io/badge/Sch-v1.1-blueviolet)](kicad/buffer-module.kicad_sch)
-[![PCB v1.1](https://img.shields.io/badge/PCB-v1.0-blue)](kicad/buffer-module.kicad_pcb)
+[![PCB v1.1](https://img.shields.io/badge/PCB-v1.1-blue)](kicad/buffer-module.kicad_pcb)
 [![PCBs: 1](https://img.shields.io/badge/PCBs-1-brightgreen)](kicad/buffer-module.kicad_pcb)
 [![Format: Eurorack](https://img.shields.io/badge/Format-Eurorack-0093ff)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
